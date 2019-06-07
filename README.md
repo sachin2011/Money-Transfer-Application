@@ -12,7 +12,7 @@ Postman client to test the get and post calls
 ## Design
 This app has 4 endpoints:
 
-GET /account-management/accounts - to get all account details presnt in system.
+1. GET /account-management/accounts - to get all account details presnt in system.
 #### Response:
 [
     {
@@ -33,10 +33,10 @@ GET /account-management/accounts - to get all account details presnt in system.
     }
 ]
 
-GET /account-management/{accountId}/balance - to get the balance of a particular account ID.
+2. GET /account-management/{accountId}/balance - to get the balance of a particular account ID.
 #### Response: Integer number
 
-POST /account-management/add - to add/create an account in database
+3. POST /account-management/add - to add/create an account in database
 #### BODY: {
         "userName": "amit",
         "emailId": "amit2@gmail.com",
@@ -46,7 +46,7 @@ POST /account-management/add - to add/create an account in database
         "currency": "EUR"
     }
 
-POST /money-transfer/transfer - to trnsfer money between two accounts.
+4. POST /money-transfer/transfer - to trnsfer money between two accounts.
 #### BODY: {  
         "currency":"EUR",
         "transferredAmount":1,
