@@ -1,4 +1,4 @@
-package com.taskforce.moneyapp.services;
+package services;
 
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.utils.HttpClientUtils;

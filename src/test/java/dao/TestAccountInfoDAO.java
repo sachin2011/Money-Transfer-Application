@@ -1,4 +1,4 @@
-package com.taskforce.moneyapp.dao;
+package dao;
 
 import static junit.framework.TestCase.assertTrue;
 

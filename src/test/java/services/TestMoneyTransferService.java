@@ -1,4 +1,4 @@
-package com.taskforce.moneyapp.services;
+package services;
 
 import static org.junit.Assert.assertTrue;
 
