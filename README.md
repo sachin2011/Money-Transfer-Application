@@ -1,5 +1,5 @@
 # Money Transfer API using JAVA(JAXRS) and H2 database(In memory)
-Java application for transferring money between accounts.
+Java application for transferring money between accounts..
 
 ## Getting Started
 
